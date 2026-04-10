@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informativa sulla privacy di WeightManager</title>
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .language-select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding: 10px 40px 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      background-image:
+        linear-gradient(45deg, transparent 50%, #6b7280 50%),
+        linear-gradient(135deg, #6b7280 50%, transparent 50%);
+      background-position:
+        calc(100% - 18px) calc(50% - 2px),
+        calc(100% - 12px) calc(50% - 2px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    .updated {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 1.4;
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 0 14px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .contact-box {
+      margin-top: 24px;
+      padding: 16px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .footer-note {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 24px 16px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <select class="language-select" aria-label="Selettore lingua" onchange="if(this.value) location.href=this.value;">
+        <option value="privacy_jp.html">日本語</option>
+        <option value="privacy_en.html">English</option>
+        <option value="privacy_es.html">Español</option>
+        <option value="privacy_fr.html">Français</option>
+        <option value="privacy_de.html">Deutsch</option>
+        <option value="privacy_it.html" selected>Italiano</option>
+        <option value="privacy_pt-BR.html">Português (Brasil)</option>
+        <option value="privacy_zh-Hans.html">中文（简体）</option>
+        <option value="privacy_zh-Hant.html">中文（繁體）</option>
+        <option value="privacy_ko.html">한국어</option>
+        <option value="privacy_ru.html">Русский</option>
+        <option value="privacy_ar.html">العربية</option>
+      </select>
+    </div>
+
+    <main class="card">
+      <h1>Informativa sulla privacy di WeightManager</h1>
+      <p class="updated">Ultimo aggiornamento: 21 marzo 2026</p>
+
+      <p>
+        Yuichiro Yoshioka ha stabilito la presente Informativa sulla privacy in merito al trattamento delle informazioni degli utenti nell’app iOS “WeightManager” (l’“App”).
+      </p>
+
+      <h2>1. Informazioni raccolte o trattate</h2>
+      <p>L’App tratta le seguenti informazioni inserite o configurate dagli utenti:</p>
+      <ul>
+        <li>Peso</li>
+        <li>Percentuale di grasso corporeo</li>
+        <li>Calorie assunte</li>
+        <li>Calorie bruciate</li>
+        <li>Note facoltative e altre informazioni inserite dall’utente</li>
+        <li>Impostazioni degli obiettivi, inclusi peso target, percentuale di grasso corporeo target, obiettivi settimanali e altre impostazioni correlate</li>
+        <li>Impostazioni delle notifiche</li>
+        <li>Impostazioni dell’app come unità di misura, visualizzazione, blocco e sincronizzazione iCloud</li>
+      </ul>
+
+      <p>L’App può inoltre utilizzare le seguenti informazioni o stati per fornire le proprie funzionalità:</p>
+      <ul>
+        <li>Stato dell’autorizzazione alle notifiche</li>
+        <li>Informazioni del dispositivo relative alla disponibilità dell’autenticazione biometrica</li>
+        <li>Dati archiviati e sincronizzati tramite CloudKit o altri servizi forniti da Apple quando la sincronizzazione iCloud è abilitata</li>
+      </ul>
+
+      <p>
+        Inoltre, l’App utilizza Google AdMob (Google Mobile Ads SDK) per la distribuzione di annunci pubblicitari. In relazione a ciò, informazioni sul dispositivo, identificatori, dati di utilizzo e dati simili possono essere raccolti e utilizzati da Google o dai suoi partner per la distribuzione degli annunci, la misurazione delle prestazioni pubblicitarie, la prevenzione delle frodi, la diagnostica e altre funzionalità pubblicitarie fornite da Google.
+      </p>
+
+      <h2>2. Finalità di utilizzo</h2>
+      <p>Yuichiro Yoshioka utilizza le informazioni raccolte o trattate per le seguenti finalità:</p>
+      <ul>
+        <li>Fornire, mantenere e migliorare l’App</li>
+        <li>Salvare, visualizzare, modificare, rappresentare graficamente e analizzare i dati registrati</li>
+        <li>Fornire funzionalità di gestione degli obiettivi e notifiche</li>
+        <li>Fornire funzionalità di sincronizzazione iCloud, esportazione e importazione</li>
+        <li>Salvare le impostazioni dell’utente</li>
+        <li>Indagare su problemi, migliorare la qualità e fornire supporto</li>
+        <li>Distribuzione degli annunci, misurazione delle prestazioni pubblicitarie, ottimizzazione degli annunci e prevenzione delle frodi</li>
+        <li>Rispondere a violazioni dei Termini di utilizzo o a utilizzi non autorizzati</li>
+      </ul>
+
+      <h2>3. Dove vengono archiviati i dati</h2>
+      <p>
+        I dati inseriti nell’App sono, in linea di principio, archiviati sul dispositivo dell’utente.
+        Se l’utente abilita la sincronizzazione iCloud, tali dati possono essere archiviati e sincronizzati nell’ambiente iCloud dell’utente tramite CloudKit o altri servizi forniti da Apple.
+      </p>
+      <p>
+        Se l’utente utilizza la funzione di esportazione, la destinazione dell’esportazione viene selezionata dall’utente. L’utente è responsabile della gestione dei file esportati nella posizione scelta.
+      </p>
+
+      <h2>4. Servizi di terze parti</h2>
+      <p>
+        Yuichiro Yoshioka non raccoglie né conserva direttamente, sui propri server o sistemi, i dati sanitari o dati simili inseriti dagli utenti nell’App.
+      </p>
+      <p>
+        I dati registrati nell’App sono, in linea di principio, archiviati sul dispositivo dell’utente o sincronizzati tramite servizi Apple come iCloud quando abilitati dall’utente.
+      </p>
+      <p>
+        Tuttavia, l’App utilizza servizi di terze parti come Google AdMob, e tali fornitori di servizi possono raccogliere, utilizzare o trattare determinati dati in conformità con le proprie informative sulla privacy e condizioni.
+      </p>
+
+      <h2>5. Servizi esterni</h2>
+      <p>L’App può utilizzare i seguenti servizi esterni o funzionalità standard del sistema operativo:</p>
+      <ul>
+        <li>Apple iCloud / CloudKit</li>
+        <li>Apple UserNotifications</li>
+        <li>Apple Face ID / Touch ID / autenticazione tramite codice del dispositivo</li>
+        <li>Google AdMob (Google Mobile Ads SDK)</li>
+      </ul>
+      <p>
+        Il trattamento delle informazioni relative a questi servizi è inoltre disciplinato dai termini e dalle politiche stabiliti dai rispettivi fornitori.
+      </p>
+
+      <h2>6. Autenticazione biometrica</h2>
+      <p>
+        L’App può utilizzare Face ID, Touch ID o il codice del dispositivo per proteggere l’accesso all’App.
+        I dati biometrici stessi non vengono memorizzati dall’App né sui server di Yuichiro Yoshioka. L’autenticazione viene eseguita tramite i meccanismi forniti da Apple.
+      </p>
+
+      <h2>7. Notifiche</h2>
+      <p>
+        L’App invia promemoria e altre notifiche solo se l’utente le ha configurate.
+        Gli utenti possono modificare le autorizzazioni alle notifiche nelle impostazioni del proprio dispositivo. La consegna e la visualizzazione delle notifiche possono essere influenzate dal sistema operativo, dallo stato del dispositivo, dalle condizioni della rete e da altri fattori.
+      </p>
+
+      <h2>8. Pubblicità</h2>
+      <p>
+        L’App può visualizzare annunci pubblicitari tramite Google AdMob.
+        In relazione alla visualizzazione degli annunci, Google o i suoi partner possono raccogliere e utilizzare dati. Ciò può includere distribuzione degli annunci, personalizzazione, misurazione, diagnostica e prevenzione delle frodi.
+      </p>
+
+      <h2>9. Eliminazione dei dati</h2>
+      <p>
+        Gli utenti possono eliminare i dati registrati e le impostazioni tramite le funzioni dell’App o tramite operazioni del dispositivo.
+        Se la sincronizzazione iCloud è abilitata, potrebbe essere necessario del tempo prima che le eliminazioni si riflettano nell’archiviazione sincronizzata.
+        Gli utenti sono responsabili dell’eliminazione dei propri file esportati.
+      </p>
+
+      <h2>10. Utilizzo da parte di minori</h2>
+      <p>
+        Se i minori utilizzano l’App, dovrebbero farlo con il consenso di un genitore o tutore, ove necessario.
+      </p>
+
+      <h2>11. Informazioni mediche e consulenza</h2>
+      <p>
+        L’App è uno strumento di uso generale per registrare e visualizzare informazioni relative alla salute e non fornisce assistenza medica, diagnosi, trattamento o consulenza professionale.
+        Le decisioni importanti relative alla salute dovrebbero essere prese consultando un medico o altro professionista qualificato.
+      </p>
+
+      <h2>12. Gestione della sicurezza</h2>
+      <p>
+        Yuichiro Yoshioka si impegna a prevenire accessi non autorizzati, divulgazione, perdita e problemi simili riguardanti le informazioni trattate dall’App.
+        Tuttavia, non viene fornita alcuna garanzia contro danni derivanti dalla perdita del dispositivo, da una gestione insufficiente da parte dell’utente, da problemi causati dal sistema operativo o da servizi esterni, da problemi dell’ambiente di comunicazione o da malfunzionamenti di iCloud o delle destinazioni di esportazione.
+      </p>
+
+      <h2>13. Revisioni</h2>
+      <p>
+        Yuichiro Yoshioka può modificare la presente Informativa sulla privacy quando necessario.
+        In caso di modifiche importanti, gli utenti saranno informati all’interno dell’App oppure su una pagina di distribuzione o in una posizione simile.
+      </p>
+
+      <h2>14. Contatti</h2>
+      <div class="contact-box">
+        <p><strong>Sviluppatore:</strong> Yuichiro Yoshioka</p>
+        <p><strong>Contatto:</strong> <a href="mailto:luck.knoll.apps@gmail.com">luck.knoll.apps@gmail.com</a></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

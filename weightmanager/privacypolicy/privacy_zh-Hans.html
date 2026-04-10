@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeightManager 隐私政策</title>
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Noto Sans SC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .language-select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding: 10px 40px 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      background-image:
+        linear-gradient(45deg, transparent 50%, #6b7280 50%),
+        linear-gradient(135deg, #6b7280 50%, transparent 50%);
+      background-position:
+        calc(100% - 18px) calc(50% - 2px),
+        calc(100% - 12px) calc(50% - 2px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    .updated {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 1.4;
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 0 14px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .contact-box {
+      margin-top: 24px;
+      padding: 16px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .footer-note {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 24px 16px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <select class="language-select" aria-label="语言选择" onchange="if(this.value) location.href=this.value;">
+        <option value="privacy_jp.html">日本語</option>
+        <option value="privacy_en.html">English</option>
+        <option value="privacy_es.html">Español</option>
+        <option value="privacy_fr.html">Français</option>
+        <option value="privacy_de.html">Deutsch</option>
+        <option value="privacy_it.html">Italiano</option>
+        <option value="privacy_pt-BR.html">Português (Brasil)</option>
+        <option value="privacy_zh-Hans.html" selected>中文（简体）</option>
+        <option value="privacy_zh-Hant.html">中文（繁體）</option>
+        <option value="privacy_ko.html">한국어</option>
+        <option value="privacy_ru.html">Русский</option>
+        <option value="privacy_ar.html">العربية</option>
+      </select>
+    </div>
+
+    <main class="card">
+      <h1>WeightManager 隐私政策</h1>
+      <p class="updated">最后更新：2026年3月21日</p>
+
+      <p>
+        Yuichiro Yoshioka 就 iOS 应用程序“WeightManager”（以下简称“本应用”）中用户信息的处理制定了本隐私政策。
+      </p>
+
+      <h2>1. 收集或处理的信息</h2>
+      <p>本应用会处理用户输入或设置的以下信息：</p>
+      <ul>
+        <li>体重</li>
+        <li>体脂率</li>
+        <li>摄入的卡路里</li>
+        <li>消耗的卡路里</li>
+        <li>可选备注及其他用户输入的信息</li>
+        <li>目标设置，包括目标体重、目标体脂率、每周目标以及其他相关设置</li>
+        <li>通知设置</li>
+        <li>应用设置，例如单位设置、显示设置、锁定设置和 iCloud 同步设置</li>
+      </ul>
+
+      <p>本应用还可能使用以下信息或状态以提供其功能：</p>
+      <ul>
+        <li>通知权限状态</li>
+        <li>与生物识别认证可用性相关的设备信息</li>
+        <li>启用 iCloud 同步时，通过 CloudKit 或 Apple 提供的其他服务存储和同步的数据</li>
+      </ul>
+
+      <p>
+        此外，本应用使用 Google AdMob（Google Mobile Ads SDK）进行广告投放。与此相关，设备信息、标识符、使用数据及类似数据可能会被 Google 或其合作伙伴收集和使用，用于广告投放、广告效果衡量、防止欺诈、诊断以及 Google 提供的其他广告相关功能。
+      </p>
+
+      <h2>2. 使用目的</h2>
+      <p>Yuichiro Yoshioka 将收集或处理的信息用于以下目的：</p>
+      <ul>
+        <li>提供、维护和改进本应用</li>
+        <li>保存、显示、编辑、图表化和分析记录数据</li>
+        <li>提供目标管理和通知功能</li>
+        <li>提供 iCloud 同步、导出和导入功能</li>
+        <li>保存用户设置</li>
+        <li>调查问题、提升质量并提供支持</li>
+        <li>广告投放、广告效果衡量、广告优化和防止欺诈</li>
+        <li>应对违反使用条款或未经授权的使用行为</li>
+      </ul>
+
+      <h2>3. 数据存储位置</h2>
+      <p>
+        输入到本应用中的数据原则上存储在用户的设备上。
+        如果用户启用了 iCloud 同步，此类数据可能会通过 CloudKit 或 Apple 提供的其他服务存储并同步到用户的 iCloud 环境中。
+      </p>
+      <p>
+        如果用户使用导出功能，导出目的地由用户自行选择。用户有责任管理导出到所选位置的文件。
+      </p>
+
+      <h2>4. 第三方服务</h2>
+      <p>
+        Yuichiro Yoshioka 不会在其自有服务器或系统上直接收集或存储用户在本应用中输入的健康记录及类似数据。
+      </p>
+      <p>
+        本应用中的记录数据原则上存储在用户设备上，或者在用户启用时通过 Apple 的 iCloud 等服务进行同步。
+      </p>
+      <p>
+        但是，本应用使用 Google AdMob 等第三方服务，这些服务提供商可能会根据其自身的隐私政策和条款收集、使用或处理某些数据。
+      </p>
+
+      <h2>5. 外部服务</h2>
+      <p>本应用可能会使用以下外部服务或操作系统标准功能：</p>
+      <ul>
+        <li>Apple iCloud / CloudKit</li>
+        <li>Apple UserNotifications</li>
+        <li>Apple Face ID / Touch ID / 设备密码认证</li>
+        <li>Google AdMob（Google Mobile Ads SDK）</li>
+      </ul>
+      <p>
+        与这些服务相关的信息处理同样受各自服务提供商制定的条款和政策约束。
+      </p>
+
+      <h2>6. 生物识别认证</h2>
+      <p>
+        本应用可能会使用 Face ID、Touch ID 或设备密码来保护对本应用的访问。
+        生物识别数据本身不会被本应用或 Yuichiro Yoshioka 的服务器存储。认证通过 Apple 提供的机制执行。
+      </p>
+
+      <h2>7. 通知</h2>
+      <p>
+        本应用仅在用户已进行相关设置的情况下发送提醒和其他通知。
+        用户可以在设备设置中更改通知权限。通知的送达和显示可能会受到操作系统、设备状态、网络环境及其他因素的影响。
+      </p>
+
+      <h2>8. 广告</h2>
+      <p>
+        本应用可能会通过 Google AdMob 显示广告。
+        与广告显示相关，Google 或其合作伙伴可能会收集和使用数据。这可能包括广告投放、个性化、测量、诊断以及防止欺诈。
+      </p>
+
+      <h2>9. 数据删除</h2>
+      <p>
+        用户可以通过本应用中的功能或通过设备操作删除记录数据和设置。
+        如果启用了 iCloud 同步，删除内容反映到同步存储中可能需要一些时间。
+        用户需自行负责删除已导出的文件。
+      </p>
+
+      <h2>10. 未成年人使用</h2>
+      <p>
+        如果未成年人使用本应用，应在必要时获得父母或监护人的同意后使用。
+      </p>
+
+      <h2>11. 医疗信息与建议</h2>
+      <p>
+        本应用是用于记录和可视化健康相关信息的通用工具，不提供医疗服务、诊断、治疗或专业建议。
+        重要的健康相关决定应在咨询医生或其他合格专业人士后作出。
+      </p>
+
+      <h2>12. 安全管理</h2>
+      <p>
+        Yuichiro Yoshioka 致力于防止与本应用处理的信息相关的未经授权访问、泄露、丢失及类似问题。
+        但是，对于因设备丢失、用户管理不当、由操作系统或外部服务导致的问题、通信环境问题，或 iCloud 或导出目标故障而产生的损害，不作任何保证。
+      </p>
+
+      <h2>13. 修订</h2>
+      <p>
+        Yuichiro Yoshioka 可在必要时修订本隐私政策。
+        如有重要变更，用户将通过本应用内、发布页面或类似位置收到通知。
+      </p>
+
+      <h2>14. 联系方式</h2>
+      <div class="contact-box">
+        <p><strong>开发者：</strong>Yuichiro Yoshioka</p>
+        <p><strong>联系方式：</strong><a href="mailto:luck.knoll.apps@gmail.com">luck.knoll.apps@gmail.com</a></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

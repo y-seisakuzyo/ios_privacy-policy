@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سياسة الخصوصية لتطبيق WeightManager</title>
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .language-select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding: 10px 12px 10px 40px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      background-image:
+        linear-gradient(45deg, #6b7280 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, #6b7280 50%);
+      background-position:
+        18px calc(50% - 2px),
+        12px calc(50% - 2px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    .updated {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 1.4;
+      border-right: 4px solid var(--accent);
+      border-left: none;
+      padding-right: 10px;
+      padding-left: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 20px 14px 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .contact-box {
+      margin-top: 24px;
+      padding: 16px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .footer-note {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 24px 16px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <select class="language-select" aria-label="محدد اللغة" onchange="if(this.value) location.href=this.value;">
+        <option value="privacy_jp.html">日本語</option>
+        <option value="privacy_en.html">English</option>
+        <option value="privacy_es.html">Español</option>
+        <option value="privacy_fr.html">Français</option>
+        <option value="privacy_de.html">Deutsch</option>
+        <option value="privacy_it.html">Italiano</option>
+        <option value="privacy_pt-BR.html">Português (Brasil)</option>
+        <option value="privacy_zh-Hans.html">中文（简体）</option>
+        <option value="privacy_zh-Hant.html">中文（繁體）</option>
+        <option value="privacy_ko.html">한국어</option>
+        <option value="privacy_ru.html">Русский</option>
+        <option value="privacy_ar.html" selected>العربية</option>
+      </select>
+    </div>
+
+    <main class="card">
+      <h1>سياسة الخصوصية لتطبيق WeightManager</h1>
+      <p class="updated">آخر تحديث: 21 مارس 2026</p>
+
+      <p>
+        وضع Yuichiro Yoshioka سياسة الخصوصية هذه بشأن كيفية التعامل مع معلومات المستخدمين في تطبيق iOS "WeightManager" ("التطبيق").
+      </p>
+
+      <h2>1. المعلومات التي يتم جمعها أو التعامل معها</h2>
+      <p>يتعامل التطبيق مع المعلومات التالية التي يُدخلها المستخدمون أو يقومون بإعدادها:</p>
+      <ul>
+        <li>الوزن</li>
+        <li>نسبة الدهون في الجسم</li>
+        <li>السعرات الحرارية المستهلكة</li>
+        <li>السعرات الحرارية المحروقة</li>
+        <li>الملاحظات الاختيارية وغيرها من المعلومات التي يُدخلها المستخدم</li>
+        <li>إعدادات الأهداف، بما في ذلك الوزن المستهدف، ونسبة الدهون المستهدفة، والأهداف الأسبوعية، وغيرها من الإعدادات ذات الصلة</li>
+        <li>إعدادات الإشعارات</li>
+        <li>إعدادات التطبيق مثل إعدادات الوحدات، والعرض، والقفل، ومزامنة iCloud</li>
+      </ul>
+
+      <p>قد يستخدم التطبيق أيضًا المعلومات أو الحالات التالية لتوفير وظائفه:</p>
+      <ul>
+        <li>حالة إذن الإشعارات</li>
+        <li>معلومات الجهاز المتعلقة بتوفر المصادقة البيومترية</li>
+        <li>البيانات المخزنة والمتزامنة عبر CloudKit أو غيره من الخدمات التي توفرها Apple عند تفعيل مزامنة iCloud</li>
+      </ul>
+
+      <p>
+        بالإضافة إلى ذلك، يستخدم التطبيق Google AdMob ‏(Google Mobile Ads SDK) لعرض الإعلانات. وفي هذا السياق، قد يتم جمع معلومات الجهاز والمعرّفات وبيانات الاستخدام وبيانات مماثلة واستخدامها من قبل Google أو شركائها لأغراض عرض الإعلانات، وقياس أدائها، ومنع الاحتيال، والتشخيص، وغير ذلك من الوظائف الإعلانية التي توفرها Google.
+      </p>
+
+      <h2>2. أغراض الاستخدام</h2>
+      <p>يستخدم Yuichiro Yoshioka المعلومات التي يتم جمعها أو التعامل معها للأغراض التالية:</p>
+      <ul>
+        <li>توفير التطبيق وصيانته وتحسينه</li>
+        <li>حفظ البيانات المسجلة وعرضها وتحريرها ورسمها بيانيًا وتحليلها</li>
+        <li>توفير ميزات إدارة الأهداف والإشعارات</li>
+        <li>توفير ميزات مزامنة iCloud والتصدير والاستيراد</li>
+        <li>حفظ إعدادات المستخدم</li>
+        <li>التحقيق في المشكلات وتحسين الجودة وتقديم الدعم</li>
+        <li>عرض الإعلانات وقياس أدائها وتحسينها ومنع الاحتيال</li>
+        <li>الاستجابة لانتهاكات شروط الاستخدام أو الاستخدام غير المصرح به</li>
+      </ul>
+
+      <h2>3. مكان تخزين البيانات</h2>
+      <p>
+        يتم، من حيث المبدأ، تخزين البيانات التي يتم إدخالها في التطبيق على جهاز المستخدم.
+        وإذا قام المستخدم بتفعيل مزامنة iCloud، فقد يتم تخزين هذه البيانات ومزامنتها داخل بيئة iCloud الخاصة بالمستخدم عبر CloudKit أو غيره من الخدمات التي توفرها Apple.
+      </p>
+      <p>
+        وإذا استخدم المستخدم ميزة التصدير، فإن وجهة التصدير يحددها المستخدم بنفسه. ويتحمل المستخدم مسؤولية إدارة الملفات التي تم تصديرها في الوجهة التي اختارها.
+      </p>
+
+      <h2>4. خدمات الجهات الخارجية</h2>
+      <p>
+        لا يقوم Yuichiro Yoshioka بجمع أو تخزين السجلات الصحية أو البيانات المماثلة التي يُدخلها المستخدمون في التطبيق بشكل مباشر على خوادمه أو أنظمته الخاصة.
+      </p>
+      <p>
+        يتم، من حيث المبدأ، تخزين بيانات السجلات داخل التطبيق على جهاز المستخدم أو مزامنتها عبر خدمات Apple مثل iCloud عند قيام المستخدم بتفعيل ذلك.
+      </p>
+      <p>
+        ومع ذلك، يستخدم التطبيق خدمات تابعة لجهات خارجية مثل Google AdMob، وقد تقوم هذه الجهات بجمع بعض البيانات أو استخدامها أو معالجتها وفقًا لسياسات الخصوصية والشروط الخاصة بها.
+      </p>
+
+      <h2>5. الخدمات الخارجية</h2>
+      <p>قد يستخدم التطبيق الخدمات الخارجية أو ميزات نظام التشغيل القياسية التالية:</p>
+      <ul>
+        <li>Apple iCloud / CloudKit</li>
+        <li>Apple UserNotifications</li>
+        <li>Apple Face ID / Touch ID / المصادقة برمز مرور الجهاز</li>
+        <li>Google AdMob ‏(Google Mobile Ads SDK)</li>
+      </ul>
+      <p>
+        كما يخضع التعامل مع المعلومات المتعلقة بهذه الخدمات أيضًا للشروط والسياسات التي يحددها مقدموها.
+      </p>
+
+      <h2>6. المصادقة البيومترية</h2>
+      <p>
+        قد يستخدم التطبيق Face ID أو Touch ID أو رمز مرور الجهاز لحماية الوصول إلى التطبيق.
+        ولا يتم تخزين البيانات البيومترية نفسها بواسطة التطبيق أو على خوادم Yuichiro Yoshioka. وتتم المصادقة من خلال الآليات التي توفرها Apple.
+      </p>
+
+      <h2>7. الإشعارات</h2>
+      <p>
+        يرسل التطبيق التذكيرات والإشعارات الأخرى فقط إذا قام المستخدم بإعدادها.
+        ويمكن للمستخدمين تغيير أذونات الإشعارات من إعدادات أجهزتهم. وقد يتأثر تسليم الإشعارات وعرضها بنظام التشغيل، وحالة الجهاز، وظروف الشبكة، وعوامل أخرى.
+      </p>
+
+      <h2>8. الإعلانات</h2>
+      <p>
+        قد يعرض التطبيق إعلانات باستخدام Google AdMob.
+        وفيما يتعلق بعرض الإعلانات، قد تقوم Google أو شركاؤها بجمع البيانات واستخدامها. وقد يشمل ذلك عرض الإعلانات وتخصيصها وقياسها وتشخيصها ومنع الاحتيال.
+      </p>
+
+      <h2>9. حذف البيانات</h2>
+      <p>
+        يمكن للمستخدمين حذف البيانات المسجلة والإعدادات من خلال وظائف داخل التطبيق أو من خلال عمليات على الجهاز.
+        وإذا كانت مزامنة iCloud مفعلة، فقد يستغرق الأمر بعض الوقت حتى ينعكس الحذف في التخزين المتزامن.
+        ويتحمل المستخدمون مسؤولية حذف الملفات التي تم تصديرها بأنفسهم.
+      </p>
+
+      <h2>10. استخدام القُصَّر</h2>
+      <p>
+        إذا استخدم القُصَّر التطبيق، فيجب أن يكون ذلك بموافقة أحد الوالدين أو الوصي عند الحاجة.
+      </p>
+
+      <h2>11. المعلومات الطبية والمشورة</h2>
+      <p>
+        التطبيق أداة عامة لتسجيل المعلومات المتعلقة بالصحة وعرضها بصريًا، ولا يقدّم رعاية طبية أو تشخيصًا أو علاجًا أو مشورة مهنية.
+        وينبغي اتخاذ القرارات الصحية المهمة بعد استشارة طبيب أو مختص مؤهل آخر.
+      </p>
+
+      <h2>12. إدارة الأمان</h2>
+      <p>
+        يسعى Yuichiro Yoshioka إلى منع الوصول غير المصرح به، والتسرب، والفقدان، والمشكلات المماثلة المتعلقة بالمعلومات التي يتعامل معها التطبيق.
+        ومع ذلك، لا يوجد أي ضمان ضد الأضرار الناتجة عن فقدان الجهاز، أو سوء إدارة المستخدم، أو المشكلات الناجمة عن نظام التشغيل أو الخدمات الخارجية، أو مشكلات بيئة الاتصال، أو أعطال iCloud أو وجهات التصدير.
+      </p>
+
+      <h2>13. التعديلات</h2>
+      <p>
+        يجوز لـ Yuichiro Yoshioka تعديل سياسة الخصوصية هذه عند الضرورة.
+        وإذا كانت هناك تغييرات مهمة، فسيتم إخطار المستخدمين داخل التطبيق أو على صفحة التوزيع أو في موقع مماثل.
+      </p>
+
+      <h2>14. التواصل</h2>
+      <div class="contact-box">
+        <p><strong>المطور:</strong> Yuichiro Yoshioka</p>
+        <p><strong>جهة الاتصال:</strong> <a href="mailto:luck.knoll.apps@gmail.com">luck.knoll.apps@gmail.com</a></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
