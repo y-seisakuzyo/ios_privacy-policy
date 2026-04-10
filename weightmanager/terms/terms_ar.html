@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شروط استخدام WeightManager</title>
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+      direction: rtl;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .language-select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding: 10px 12px 10px 40px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      background-image:
+        linear-gradient(45deg, #6b7280 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, #6b7280 50%);
+      background-position:
+        18px calc(50% - 2px),
+        12px calc(50% - 2px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    .updated {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 1.4;
+      border-right: 4px solid var(--accent);
+      border-left: none;
+      padding-right: 10px;
+      padding-left: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 20px 14px 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .contact-box {
+      margin-top: 24px;
+      padding: 16px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 24px 16px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <select class="language-select" aria-label="محدد اللغة" onchange="if(this.value) location.href=this.value;">
+        <option value="terms_jp.html">日本語</option>
+        <option value="terms_en.html">English</option>
+        <option value="terms_es.html">Español</option>
+        <option value="terms_fr.html">Français</option>
+        <option value="terms_de.html">Deutsch</option>
+        <option value="terms_it.html">Italiano</option>
+        <option value="terms_pt-BR.html">Português (Brasil)</option>
+        <option value="terms_zh-Hans.html">中文（简体）</option>
+        <option value="terms_zh-Hant.html">中文（繁體）</option>
+        <option value="terms_ko.html">한국어</option>
+        <option value="terms_ru.html">Русский</option>
+        <option value="terms_ar.html" selected>العربية</option>
+      </select>
+    </div>
+
+    <main class="card">
+      <h1>شروط استخدام WeightManager</h1>
+      <p class="updated">آخر تحديث: 21 مارس 2026</p>
+
+      <p>
+        تحدد شروط الاستخدام هذه ("الشروط") شروط استخدام تطبيق iOS "WeightManager" ("التطبيق") الذي يقدمه Yuichiro Yoshioka ("المطور"). وباستخدام التطبيق، يُعتبر المستخدم موافقًا على هذه الشروط.
+      </p>
+
+      <h2>المادة 1 (النطاق)</h2>
+      <p>
+        تنطبق هذه الشروط على جميع العلاقات بين المستخدم والمطور فيما يتعلق باستخدام التطبيق.
+      </p>
+
+      <h2>المادة 2 (محتوى التطبيق)</h2>
+      <p>
+        يهدف التطبيق إلى تسجيل وعرض وإدارة معلومات مثل الوزن ونسبة الدهون في الجسم والسعرات الحرارية المستهلكة والمحروقة.
+        ولا يهدف التطبيق إلى تقديم علاج طبي أو تشخيص أو قرارات علاجية أو الوقاية من الأمراض.
+      </p>
+
+      <h2>المادة 3 (مسؤولية المستخدم)</h2>
+      <p>
+        يجب على المستخدم استخدام التطبيق على مسؤوليته الخاصة.
+        وتقع على عاتق المستخدم مسؤولية دقة البيانات التي يُدخلها، وإدارة مواقع التخزين، وحفظ الملفات المصدّرة، وتغيير إعدادات الجهاز.
+      </p>
+
+      <h2>المادة 4 (الأفعال المحظورة)</h2>
+      <p>يُحظر على المستخدم القيام بأي من الأفعال التالية عند استخدام التطبيق:</p>
+      <ul>
+        <li>الأفعال التي تنتهك القوانين أو النظام العام أو الآداب العامة</li>
+        <li>الأفعال التي تعيق تشغيل التطبيق</li>
+        <li>الوصول غير المصرح به إلى التطبيق أو الأنظمة المرتبطة به</li>
+        <li>تفكيك التطبيق أو فك ترجمته أو إجراء هندسة عكسية له</li>
+        <li>استخدام التطبيق لأغراض غير مشروعة أو غير مناسبة</li>
+        <li>الأفعال التي تنتهك حقوق أو مصالح المطور أو أي طرف ثالث</li>
+        <li>أي أفعال أخرى يراها المطور غير مناسبة</li>
+      </ul>
+
+      <h2>المادة 5 (ميزة الإشعارات)</h2>
+      <p>
+        يوفر التطبيق ميزات الإشعارات فقط عندما يقوم المستخدم بإعدادها.
+        ويعتمد استلام الإشعارات ووقت عرضها ومحتواها على نظام التشغيل والجهاز وبيئة الشبكة وعوامل أخرى، ولا يضمن المطور عملها بشكل كامل.
+      </p>
+
+      <h2>المادة 6 (مزامنة iCloud والتخزين والتصدير)</h2>
+      <p>
+        إذا قام المستخدم بتمكين مزامنة iCloud، فقد يتم تخزين البيانات المُدخلة ومزامنتها من خلال البنية التحتية للمزامنة التي توفرها Apple.
+        وإذا استخدم المستخدم ميزة التصدير، فإن جهة التخزين يختارها المستخدم بنفسه.
+      </p>
+      <p>
+        لا يضمن المطور التوافر أو السلامة أو الدقة أو الاستمرارية أو إمكانية الاسترداد الخاصة بمزامنة iCloud أو التصدير أو الاستيراد أو بيئات التخزين أو البنية التحتية الخارجية.
+        ويجب على المستخدم التحقق من النسخ الاحتياطية وإدارتها بنفسه عند الحاجة.
+      </p>
+
+      <h2>المادة 7 (الإعلانات)</h2>
+      <p>
+        قد يعرض التطبيق إعلانات باستخدام Google AdMob.
+        وقد يعتمد محتوى الإعلانات، وما إذا كانت الإعلانات ستُعرض، وتكرار عرضها، وما إذا كانت مخصصة، وغير ذلك من سلوكيات الإعلانات، على الأنظمة التي تديرها Google أو شركاؤها.
+      </p>
+
+      <h2>المادة 8 (المصادقة البيومترية وميزة القفل)</h2>
+      <p>
+        قد يوفر التطبيق ميزة قفل باستخدام Face ID أو Touch ID أو رمز مرور الجهاز.
+        ولا يضمن المطور الأمان الكامل من خلال هذه الميزات. وتظل إدارة الجهاز وحسابات المستخدم مسؤولية المستخدم نفسه.
+      </p>
+
+      <h2>المادة 9 (حقوق الملكية الفكرية)</h2>
+      <p>
+        تعود حقوق النشر وحقوق العلامات التجارية وجميع حقوق الملكية الفكرية الأخرى المتعلقة بالتطبيق إلى المطور أو أصحاب الحقوق الشرعيين.
+      </p>
+
+      <h2>المادة 10 (إخلاء المسؤولية عن الضمانات)</h2>
+      <p>
+        لا يقدم المطور أي ضمانات من أي نوع فيما يتعلق بالتطبيق، بما في ذلك الملاءمة لغرض معين أو الدقة أو الاكتمال أو الاستمرارية أو الفائدة أو التشغيل الخالي من الأخطاء.
+        كما لا يضمن المطور أن يعمل التطبيق بشكل صحيح على جميع الأجهزة أو أنظمة التشغيل أو بيئات الشبكة أو بيئات الخدمات الخارجية.
+      </p>
+
+      <h2>المادة 11 (تحديد المسؤولية)</h2>
+      <p>
+        لا يتحمل المطور المسؤولية عن أي أضرار تنشأ فيما يتعلق باستخدام التطبيق أو عدم القدرة على استخدامه أو فقدان البيانات أو تأخر المزامنة أو فشلها أو نتائج التصدير أو عدم وصول الإشعارات أو عرض الإعلانات أو أعطال الخدمات الخارجية أو أي أمور أخرى متعلقة بالتطبيق، باستثناء حالات السلوك المتعمد أو الإهمال الجسيم من جانب المطور.
+      </p>
+      <p>
+        وحتى في الحالات التي يكون فيها المطور مسؤولًا، فإن هذه المسؤولية تقتصر على الأضرار المباشرة والعادية التي تكبدها المستخدم فعليًا.
+      </p>
+
+      <h2>المادة 12 (إخلاء المسؤولية الطبية)</h2>
+      <p>
+        التطبيق ليس جهازًا طبيًا ولا يُعد بديلًا عن نصائح الأطباء أو غيرهم من المتخصصين الطبيين.
+        ويجب على المستخدم عدم اتخاذ قرارات صحية مهمة بالاعتماد فقط على المعلومات التي يقدمها التطبيق.
+      </p>
+
+      <h2>المادة 13 (تغييرات التطبيق أو إيقافه)</h2>
+      <p>
+        يجوز للمطور تغيير محتوى التطبيق أو إضافة إليه أو تعليقه أو إنهاؤه دون إشعار مسبق للمستخدمين.
+      </p>
+
+      <h2>المادة 14 (تعديل هذه الشروط)</h2>
+      <p>
+        يجوز للمطور تعديل هذه الشروط عند الضرورة.
+        وتصبح الشروط المعدلة نافذة عند نشرها داخل التطبيق أو على صفحة التوزيع أو في مكان مماثل.
+      </p>
+
+      <h2>المادة 15 (القانون الحاكم والاختصاص القضائي)</h2>
+      <p>
+        تخضع هذه الشروط وتُفسر وفقًا لقوانين اليابان.
+        وفي حال نشوء أي نزاع يتعلق بالتطبيق، يكون للمحكمة التي يقع ضمن اختصاصها مقر المطور الاختصاص القضائي الحصري كمحكمة ابتدائية.
+      </p>
+
+      <h2>المادة 16 (الاتصال)</h2>
+      <div class="contact-box">
+        <p><strong>المطور:</strong> Yuichiro Yoshioka</p>
+        <p><strong>جهة الاتصال:</strong> <a href="mailto:luck.knoll.apps@gmail.com">luck.knoll.apps@gmail.com</a></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

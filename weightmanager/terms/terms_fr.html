@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conditions d'utilisation de WeightManager</title>
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .language-select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding: 10px 40px 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      background-image:
+        linear-gradient(45deg, transparent 50%, #6b7280 50%),
+        linear-gradient(135deg, #6b7280 50%, transparent 50%);
+      background-position:
+        calc(100% - 18px) calc(50% - 2px),
+        calc(100% - 12px) calc(50% - 2px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    .updated {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 1.4;
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 0 14px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .contact-box {
+      margin-top: 24px;
+      padding: 16px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 24px 16px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <select class="language-select" aria-label="Sélecteur de langue" onchange="if(this.value) location.href=this.value;">
+        <option value="terms_jp.html">日本語</option>
+        <option value="terms_en.html">English</option>
+        <option value="terms_es.html">Español</option>
+        <option value="terms_fr.html" selected>Français</option>
+        <option value="terms_de.html">Deutsch</option>
+        <option value="terms_it.html">Italiano</option>
+        <option value="terms_pt-BR.html">Português (Brasil)</option>
+        <option value="terms_zh-Hans.html">中文（简体）</option>
+        <option value="terms_zh-Hant.html">中文（繁體）</option>
+        <option value="terms_ko.html">한국어</option>
+        <option value="terms_ru.html">Русский</option>
+        <option value="terms_ar.html">العربية</option>
+      </select>
+    </div>
+
+    <main class="card">
+      <h1>Conditions d'utilisation de WeightManager</h1>
+      <p class="updated">Dernière mise à jour : 21 mars 2026</p>
+
+      <p>
+        Les présentes conditions d'utilisation (« Conditions ») définissent les conditions d'utilisation de l'application iOS « WeightManager » (« l'Application ») fournie par Yuichiro Yoshioka (« le Développeur »). En utilisant l'Application, l'utilisateur est réputé avoir accepté les présentes Conditions.
+      </p>
+
+      <h2>Article 1 (Champ d'application)</h2>
+      <p>
+        Les présentes Conditions s'appliquent à toutes les relations entre l'utilisateur et le Développeur relatives à l'utilisation de l'Application.
+      </p>
+
+      <h2>Article 2 (Contenu de l'Application)</h2>
+      <p>
+        L'Application a pour objet d'enregistrer, d'afficher et de gérer des informations telles que le poids, le pourcentage de masse grasse, les calories consommées et les calories brûlées.
+        L'Application n'a pas pour objet de fournir des soins médicaux, un diagnostic, des décisions thérapeutiques ou la prévention de maladies.
+      </p>
+
+      <h2>Article 3 (Responsabilité de l'utilisateur)</h2>
+      <p>
+        L'utilisateur utilise l'Application sous sa propre responsabilité.
+        L'exactitude des données saisies par l'utilisateur, la gestion des emplacements de stockage, la conservation des fichiers exportés et les modifications des paramètres de l'appareil relèvent de la seule responsabilité de l'utilisateur.
+      </p>
+
+      <h2>Article 4 (Actes interdits)</h2>
+      <p>L'utilisateur ne doit effectuer aucun des actes suivants lors de l'utilisation de l'Application :</p>
+      <ul>
+        <li>Des actes contraires aux lois, à l'ordre public ou aux bonnes mœurs</li>
+        <li>Des actes perturbant le fonctionnement de l'Application</li>
+        <li>Tout accès non autorisé à l'Application ou aux systèmes associés</li>
+        <li>Le désassemblage, la décompilation ou l'ingénierie inverse de l'Application</li>
+        <li>L'utilisation de l'Application à des fins inappropriées ou illégales</li>
+        <li>Des actes portant atteinte aux droits ou aux intérêts du Développeur ou de tout tiers</li>
+        <li>Tout autre acte que le Développeur juge inapproprié</li>
+      </ul>
+
+      <h2>Article 5 (Fonction de notification)</h2>
+      <p>
+        L'Application fournit des fonctions de notification uniquement lorsqu'elles sont configurées par l'utilisateur.
+        La réception des notifications, leur moment d'affichage et leur contenu dépendent du système d'exploitation, de l'appareil, de l'environnement réseau et d'autres facteurs, et le Développeur n'en garantit pas le fonctionnement complet.
+      </p>
+
+      <h2>Article 6 (Synchronisation iCloud, stockage et exportation)</h2>
+      <p>
+        Si l'utilisateur active la synchronisation iCloud, les données saisies peuvent être stockées et synchronisées via l'infrastructure de synchronisation fournie par Apple.
+        Si l'utilisateur utilise la fonction d'exportation, la destination de stockage est choisie par l'utilisateur.
+      </p>
+      <p>
+        Le Développeur ne garantit pas la disponibilité, l'intégrité, l'exactitude, la continuité ni la possibilité de récupération de la synchronisation iCloud, de l'exportation, de l'importation, des environnements de stockage ou des infrastructures externes.
+        L'utilisateur doit vérifier et gérer lui-même ses sauvegardes, si nécessaire.
+      </p>
+
+      <h2>Article 7 (Publicités)</h2>
+      <p>
+        L'Application peut afficher des publicités à l'aide de Google AdMob.
+        Le contenu des publicités, leur affichage ou non, leur fréquence de diffusion, leur personnalisation éventuelle et tout autre comportement publicitaire peuvent dépendre des systèmes exploités par Google ou ses partenaires.
+      </p>
+
+      <h2>Article 8 (Authentification biométrique et fonction de verrouillage)</h2>
+      <p>
+        L'Application peut fournir une fonction de verrouillage utilisant Face ID, Touch ID ou le code d'accès de l'appareil.
+        Le Développeur ne garantit pas une sécurité complète grâce à ces fonctions. La gestion de l'appareil et des comptes utilisateur demeure de la responsabilité de l'utilisateur.
+      </p>
+
+      <h2>Article 9 (Droits de propriété intellectuelle)</h2>
+      <p>
+        Les droits d'auteur, les droits sur les marques et tous les autres droits de propriété intellectuelle relatifs à l'Application appartiennent au Développeur ou aux titulaires légitimes de ces droits.
+      </p>
+
+      <h2>Article 10 (Exclusion de garanties)</h2>
+      <p>
+        Le Développeur ne donne aucune garantie de quelque nature que ce soit concernant l'Application, y compris son adéquation à un usage particulier, son exactitude, son exhaustivité, sa continuité, son utilité ou l'absence d'erreurs.
+        Le Développeur ne garantit pas non plus que l'Application fonctionnera correctement sur tous les appareils, systèmes d'exploitation, environnements réseau ou environnements de services externes.
+      </p>
+
+      <h2>Article 11 (Limitation de responsabilité)</h2>
+      <p>
+        Le Développeur ne pourra être tenu responsable des dommages résultant de l'utilisation ou de l'impossibilité d'utiliser l'Application, de la perte de données, des retards de synchronisation, des échecs de synchronisation, des résultats d'exportation, de l'absence de réception des notifications, de la diffusion de publicités, des défaillances de services externes ou de toute autre question liée à l'Application, sauf en cas de faute intentionnelle ou de négligence grave du Développeur.
+      </p>
+      <p>
+        Même dans les cas où le Développeur est responsable, cette responsabilité sera limitée aux dommages directs et ordinaires réellement subis par l'utilisateur.
+      </p>
+
+      <h2>Article 12 (Clause de non-responsabilité médicale)</h2>
+      <p>
+        L'Application n'est pas un dispositif médical et ne remplace pas les conseils de médecins ou d'autres professionnels de santé.
+        L'utilisateur ne doit pas prendre de décisions importantes liées à sa santé en se fondant uniquement sur les informations fournies par l'Application.
+      </p>
+
+      <h2>Article 13 (Modification ou suspension de l'Application)</h2>
+      <p>
+        Le Développeur peut modifier, ajouter, suspendre ou mettre fin au contenu de l'Application sans préavis aux utilisateurs.
+      </p>
+
+      <h2>Article 14 (Modification des présentes Conditions)</h2>
+      <p>
+        Le Développeur peut modifier les présentes Conditions si nécessaire.
+        Les Conditions révisées entreront en vigueur dès leur publication dans l'Application, sur la page de distribution ou dans un emplacement similaire.
+      </p>
+
+      <h2>Article 15 (Droit applicable et juridiction compétente)</h2>
+      <p>
+        Les présentes Conditions sont régies et interprétées conformément au droit japonais.
+        En cas de litige relatif à l'Application, le tribunal compétent du lieu où se trouve le Développeur aura compétence exclusive en tant que juridiction de première instance.
+      </p>
+
+      <h2>Article 16 (Contact)</h2>
+      <div class="contact-box">
+        <p><strong>Développeur :</strong> Yuichiro Yoshioka</p>
+        <p><strong>Contact :</strong> <a href="mailto:luck.knoll.apps@gmail.com">luck.knoll.apps@gmail.com</a></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

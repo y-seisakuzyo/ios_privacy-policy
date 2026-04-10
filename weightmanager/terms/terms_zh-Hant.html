@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeightManager 使用條款</title>
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .language-select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding: 10px 40px 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      background-image:
+        linear-gradient(45deg, transparent 50%, #6b7280 50%),
+        linear-gradient(135deg, #6b7280 50%, transparent 50%);
+      background-position:
+        calc(100% - 18px) calc(50% - 2px),
+        calc(100% - 12px) calc(50% - 2px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    .updated {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 1.4;
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 0 14px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .contact-box {
+      margin-top: 24px;
+      padding: 16px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 24px 16px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <select class="language-select" aria-label="語言選擇器" onchange="if(this.value) location.href=this.value;">
+        <option value="terms_jp.html">日本語</option>
+        <option value="terms_en.html">English</option>
+        <option value="terms_es.html">Español</option>
+        <option value="terms_fr.html">Français</option>
+        <option value="terms_de.html">Deutsch</option>
+        <option value="terms_it.html">Italiano</option>
+        <option value="terms_pt-BR.html">Português (Brasil)</option>
+        <option value="terms_zh-Hans.html">中文（简体）</option>
+        <option value="terms_zh-Hant.html" selected>中文（繁體）</option>
+        <option value="terms_ko.html">한국어</option>
+        <option value="terms_ru.html">Русский</option>
+        <option value="terms_ar.html">العربية</option>
+      </select>
+    </div>
+
+    <main class="card">
+      <h1>WeightManager 使用條款</h1>
+      <p class="updated">最後更新日期：2026年3月21日</p>
+
+      <p>
+        本使用條款（以下稱「本條款」）規定了由 Yuichiro Yoshioka（以下稱「開發者」）所提供之 iOS 應用程式「WeightManager」（以下稱「本應用程式」）的使用條件。使用者使用本應用程式，即視為已同意本條款。
+      </p>
+
+      <h2>第1條（適用範圍）</h2>
+      <p>
+        本條款適用於使用者與開發者之間，因使用本應用程式所生之一切關係。
+      </p>
+
+      <h2>第2條（本應用程式之內容）</h2>
+      <p>
+        本應用程式旨在記錄、顯示及管理體重、體脂率、攝取卡路里及消耗卡路里等資訊。
+        本應用程式並非用於提供醫療行為、診斷、治療決策或疾病預防。
+      </p>
+
+      <h2>第3條（使用者責任）</h2>
+      <p>
+        使用者應自行承擔責任使用本應用程式。
+        使用者所輸入資料之正確性、儲存位置之管理、匯出檔案之保存，以及裝置設定之變更，均應由使用者自行負責。
+      </p>
+
+      <h2>第4條（禁止事項）</h2>
+      <p>使用者於使用本應用程式時，不得從事以下行為：</p>
+      <ul>
+        <li>違反法令或公共秩序善良風俗之行為</li>
+        <li>妨礙本應用程式營運之行為</li>
+        <li>未經授權存取本應用程式或相關系統之行為</li>
+        <li>對本應用程式進行反組譯、反編譯或逆向工程之行為</li>
+        <li>將本應用程式用於不當或違法目的之行為</li>
+        <li>侵害開發者或任何第三方之權利或利益之行為</li>
+        <li>其他經開發者判定為不適當之行為</li>
+      </ul>
+
+      <h2>第5條（通知功能）</h2>
+      <p>
+        本應用程式僅於使用者完成設定時提供通知功能。
+        是否接收通知、通知之顯示時機及顯示內容，取決於作業系統、裝置、網路環境及其他因素，開發者不保證其完整正常運作。
+      </p>
+
+      <h2>第6條（iCloud 同步、儲存及匯出）</h2>
+      <p>
+        若使用者啟用 iCloud 同步，所輸入之資料可能透過 Apple 所提供之同步基礎設施進行儲存與同步。
+        若使用者使用匯出功能，儲存位置應由使用者自行選擇。
+      </p>
+      <p>
+        開發者不保證 iCloud 同步、匯出、匯入、儲存環境或外部基礎設施之可用性、完整性、正確性、持續性或可回復性。
+        使用者應視需要自行確認並管理備份。
+      </p>
+
+      <h2>第7條（廣告）</h2>
+      <p>
+        本應用程式可能使用 Google AdMob 顯示廣告。
+        廣告內容、是否顯示廣告、投放頻率、是否個人化及其他廣告行為，可能取決於 Google 或其合作夥伴所營運之系統。
+      </p>
+
+      <h2>第8條（生物辨識驗證與鎖定功能）</h2>
+      <p>
+        本應用程式可能提供使用 Face ID、Touch ID 或裝置密碼之鎖定功能。
+        開發者不保證透過此等功能即可達成完全安全。裝置及使用者帳號之管理，仍應由使用者自行負責。
+      </p>
+
+      <h2>第9條（智慧財產權）</h2>
+      <p>
+        與本應用程式相關之著作權、商標權及其他一切智慧財產權，均歸屬於開發者或合法權利人所有。
+      </p>
+
+      <h2>第10條（免責聲明）</h2>
+      <p>
+        開發者對本應用程式不提供任何形式之保證，包括但不限於特定目的適用性、正確性、完整性、持續性、有用性或無錯誤運作。
+        開發者亦不保證本應用程式得於所有裝置、作業系統、網路環境或外部服務環境下正常運作。
+      </p>
+
+      <h2>第11條（責任限制）</h2>
+      <p>
+        因使用或無法使用本應用程式、資料遺失、同步延遲、同步失敗、匯出結果、通知未送達、廣告投放、外部服務故障或其他與本應用程式相關事項所生之任何損害，除開發者存在故意或重大過失外，開發者概不負責。
+      </p>
+      <p>
+        即使開發者須負責，其責任亦僅限於使用者實際遭受之直接且通常損害。
+      </p>
+
+      <h2>第12條（醫療免責聲明）</h2>
+      <p>
+        本應用程式並非醫療器材，亦不得替代醫師或其他醫療專業人士之建議。
+        使用者不得僅依據本應用程式所提供之資訊，作出重要之健康相關決定。
+      </p>
+
+      <h2>第13條（本應用程式之變更或停止）</h2>
+      <p>
+        開發者得於未事先通知使用者之情況下，變更、追加、暫停或終止本應用程式之內容。
+      </p>
+
+      <h2>第14條（本條款之變更）</h2>
+      <p>
+        開發者得視需要變更本條款。
+        修訂後之條款，於刊載於本應用程式、發布頁面或其他類似位置時，即開始生效。
+      </p>
+
+      <h2>第15條（準據法與管轄）</h2>
+      <p>
+        本條款應依日本法律解釋，並受其管轄。
+        因本應用程式所生之任何爭議，應由對開發者所在地具有管轄權之法院作為第一審專屬管轄法院。
+      </p>
+
+      <h2>第16條（聯絡方式）</h2>
+      <div class="contact-box">
+        <p><strong>開發者：</strong>Yuichiro Yoshioka</p>
+        <p><strong>聯絡方式：</strong><a href="mailto:luck.knoll.apps@gmail.com">luck.knoll.apps@gmail.com</a></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
