@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Weight Recorder Support</title>
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #2563eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px 16px 64px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .language-select {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      padding: 10px 40px 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      color: var(--text);
+      font-size: 14px;
+      cursor: pointer;
+      background-image:
+        linear-gradient(45deg, transparent 50%, #6b7280 50%),
+        linear-gradient(135deg, #6b7280 50%, transparent 50%);
+      background-position:
+        calc(100% - 18px) calc(50% - 2px),
+        calc(100% - 12px) calc(50% - 2px);
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 24px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.3;
+    }
+
+    .updated {
+      margin: 0 0 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 1.4;
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+    }
+
+    h3 {
+      margin-top: 24px;
+      margin-bottom: 8px;
+      font-size: 17px;
+      line-height: 1.5;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 0 14px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .contact-box,
+    .link-box,
+    .notice-box {
+      margin-top: 16px;
+      padding: 16px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .notice-box {
+      background: #f2f6ff;
+      border-color: #bfdbfe;
+    }
+
+    .footer-note {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 24px 16px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <select class="language-select" aria-label="Language selector" onchange="if(this.value) location.href=this.value;">
+        <option value="support_jp.html">日本語</option>
+        <option value="support_en.html" selected>English</option>
+        <option value="support_es.html">Español</option>
+        <option value="support_fr.html">Français</option>
+        <option value="support_de.html">Deutsch</option>
+        <option value="support_it.html">Italiano</option>
+        <option value="support_pt-BR.html">Português (Brasil)</option>
+        <option value="support_zh-Hans.html">中文（简体）</option>
+        <option value="support_zh-Hant.html">中文（繁體）</option>
+        <option value="support_ko.html">한국어</option>
+        <option value="support_ru.html">Русский</option>
+        <option value="support_ar.html">العربية</option>
+      </select>
+    </div>
+
+    <main class="card">
+      <h1>Daily Weight Recorder Support</h1>
+      <p class="updated">Last updated: March 21, 2026</p>
+
+      <p>
+        Daily Weight Recorder is a weight management app that lets you record your weight,
+        body fat percentage, calorie intake, and calories burned, and review your daily changes in graphs.
+      </p>
+
+      <p>
+        It is a simple recording and visualization tool designed to support daily weight management
+        and recording-based diet habits.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For app-related inquiries, bug reports, feedback, or requests, please contact us at the email address below.
+      </p>
+
+      <div class="contact-box">
+        <p><strong>Developer:</strong> Yuichiro Yoshioka</p>
+        <p><strong>Contact:</strong> <a href="mailto:luck.knoll.apps@gmail.com">luck.knoll.apps@gmail.com</a></p>
+      </div>
+
+      <p>When contacting us, please include the following information if possible:</p>
+      <ul>
+        <li>Your device model</li>
+        <li>Your iOS / iPadOS version</li>
+        <li>The app version</li>
+        <li>A description of the issue</li>
+        <li>The screen or steps where the issue occurred</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Q. What can I do with Daily Weight Recorder?</h3>
+      <p>
+        You can record your weight, body fat percentage, calorie intake, calories burned, and other related information,
+        and review your daily changes in graphs.
+        The app also supports target weight and target body fat settings, as well as meal and workout template management.
+      </p>
+
+      <h3>Q. Where is my recorded data stored?</h3>
+      <p>
+        In principle, recorded data is stored on your device.
+        If iCloud sync is enabled, your data may be stored and synchronized through your iCloud environment
+        using Apple iCloud / CloudKit or related services.
+      </p>
+
+      <h3>Q. Is iCloud sync required?</h3>
+      <p>
+        No. iCloud sync is optional.
+        You can choose whether to use iCloud sync in the app settings.
+      </p>
+
+      <h3>Q. Can I delete my recorded data?</h3>
+      <p>
+        Yes. You can delete recorded data and settings using app features or device operations.
+        If iCloud sync is enabled, it may take some time for the deletion to be reflected in the synchronized data.
+      </p>
+
+      <h3>Q. Does the app display ads?</h3>
+      <p>
+        Yes. This app may display ads using Google AdMob.
+        Ad content, ad availability, delivery frequency, personalization, and other ad behavior may depend on
+        Google or its partners.
+      </p>
+
+      <h3>Q. Does the app store Face ID or Touch ID information?</h3>
+      <p>
+        No. Authentication using Face ID, Touch ID, or a device passcode is performed through mechanisms provided by Apple.
+        Biometric information itself is not stored by this app or on the developer's servers.
+      </p>
+
+      <h3>Q. Is this app a medical app?</h3>
+      <p>
+        No. Daily Weight Recorder is a general recording and visualization tool intended to support health management.
+        It does not provide medical practice, diagnosis, treatment, or professional advice.
+      </p>
+      <p>
+        Please consult a physician or other qualified professional before making important health-related decisions.
+      </p>
+
+      <h2>Privacy Policy</h2>
+      <p>
+        Please review the Privacy Policy below for information on how user information is handled in this app.
+      </p>
+
+      <div class="link-box">
+        <p>
+          <a href="https://y-seisakuzyo.github.io/ios_privacy-policy/weightmanager/privacypolicy/privacy_en.html">Daily Weight Recorder Privacy Policy</a>
+        </p>
+      </div>
+
+      <h2>Terms of Use</h2>
+      <p>
+        Please review the Terms of Use below for the conditions of using this app.
+      </p>
+
+      <div class="link-box">
+        <p>
+          <a href="https://y-seisakuzyo.github.io/ios_privacy-policy/weightmanager/terms/terms_en.html">Daily Weight Recorder Terms of Use</a>
+        </p>
+      </div>
+
+      <h2>About the App</h2>
+      <p>
+        <strong>App name:</strong> Daily Weight Recorder<br />
+        <strong>Developer:</strong> Yuichiro Yoshioka<br />
+        <strong>Category:</strong> Health & Fitness<br />
+        <strong>Supported devices:</strong> iPhone / iPad
+      </p>
+
+      <h2>Important Notice</h2>
+      <div class="notice-box">
+        <p>
+          This app is intended to support weight management and lifestyle recording.
+          Do not rely solely on the information provided by this app when making important health-related decisions.
+        </p>
+        <p>
+          If you have concerns about your health, or if you need to make decisions regarding diet, exercise,
+          weight loss, or similar matters, please consult a physician or other qualified professional.
+        </p>
+      </div>
+
+      <p class="footer-note">
+        &copy; 2026 Yuichiro Yoshioka. All rights reserved.
+      </p>
+    </main>
+  </div>
+</body>
+</html>
